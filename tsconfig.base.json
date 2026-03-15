@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": false,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@synphere/analytics": ["packages/analytics/src/index.ts"],
+      "@synphere/config": ["packages/config/src/index.ts"],
+      "@synphere/domain": ["packages/domain/src/index.ts"],
+      "@synphere/ui": ["packages/ui/src/index.ts"]
+    }
+  }
+}
