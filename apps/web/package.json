@@ -10,10 +10,10 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@synphere/analytics": "workspace:*",
-    "@synphere/config": "workspace:*",
-    "@synphere/domain": "workspace:*",
-    "@synphere/ui": "workspace:*",
+    "@synphere/analytics": "file:../../packages/analytics",
+    "@synphere/config": "file:../../packages/config",
+    "@synphere/domain": "file:../../packages/domain",
+    "@synphere/ui": "file:../../packages/ui",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
